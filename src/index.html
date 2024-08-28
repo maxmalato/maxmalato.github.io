@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./output.css">
+
+    <script src="./js/script.js" defer></script>
+
+    <!-- DEV ICONS -->
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+
+    <!-- BOX ICONS -->
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+    <!-- TEXT FONT - ROBOTO -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Foldit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <title>Portifólio - Maxjannyfer Malato</title>
+</head>
+
+<body class="font-roboto px-6 lg:w-[1024px] lg:mx-auto lg:my-0 dark:bg-slate-700">
+    <header class="sticky top-5 z-10 md:px-36" id="navLinks">
+        <!-- MENU -->
+        <div class="flex justify-between items-center px-4 bg-slate-100/50 rounded-lg dark:bg-slate-600/50" id="start">
+            <div>
+                <box-icon id="menu" name='menu' class="size-12 cursor-pointer fill-slate-700 dark:fill-slate-100"></box-icon>
+            </div>
+            <a href="start" class="font-bold text-2xl text-orange-600"><span class=" text-slate-700 dark:text-white">{ d</span>M }</a>
+        </div>
+
+        <!-- NAVEGAÇÃO -->
+        <aside id="menus" class="fixed flex flex-col bg-slate-700 text-white text-xl p-4 rounded-lg gap-4 top-20 dark:bg-slate-100">
+            <a href="aboutme" class="hover:text-orange-600 dark:text-slate-700">Sobre mim</a>
+            <a href="skills" class="hover:text-orange-600 dark:text-slate-700">Habilidades</a>
+            <a href="projects" class="hover:text-orange-600 dark:text-slate-700">Projetos</a>
+        </aside>
+    </header>
+
+    <main class="flex flex-col gap-8 pt-8">
+        <!-- FOTO E FUNÇÃO -->
+        <section class="flex flex-col items-center">
+            <div class="flex justify-center">
+                <img src="../assets/images/maxmalato-arredondado.png" class="w-64 drop-shadow-lg" alt="">
+            </div>
+            <div class="text-center">
+                <p class="text-slate-700 my-4 dark:text-slate-100">Olá! 👋 me chamo</p>
+                <h2 class="font-bold text-5xl drop-shadow-md mb-3 tracking-wide dark:text-slate-100">Maxjannyfer Malato
+                </h2>
+                <h4 class="font-bold text-xl text-orange-600 tracking-wide">Desenvolvedor Full Stack</h4>
+            </div>
+            <a href="https://drive.google.com/drive/folders/0B0zc_rfjZaNXSDBsd0s5YW9WdUk?resourcekey=0-28kVGtCH7EvvNwkheNGnrQ"
+                target="_blank"
+                class="bg-orange-600 p-2 rounded-lg text-center text-lg w-48 text-white font-bold tracking-wider mt-5 drop-shadow-md hover:bg-orange-500">
+                Currículo
+            </a>
+        </section>
+
+        <!-- REDES SOCIAIS -->
+        <section class="flex justify-center gap-4">
+            <a href="https://github.com/maxmalato" target="_blank">
+                <box-icon
+                    class="fill-black size-10 hover:fill-slate-700 dark: dark:fill-slate-100 hover:dark:fill-slate-500"
+                    name='github' type='logo'></box-icon>
+            </a>
+
+            <a href="https://wa.me/5598992352127" target="_blank">
+                <box-icon class="fill-black size-10 hover:fill-green-600 dark:fill-slate-100" name='whatsapp'
+                    type='logo'></box-icon>
+            </a>
+
+            <a href="mailto:max.malato@hotmail.com" target="_blank">
+                <box-icon class="fill-black size-10 hover:fill-orange-600 dark:fill-slate-100"
+                    name='envelope'></box-icon>
+            </a>
+
+            <a href="https://www.linkedin.com/in/maxmalato/" target="_blank">
+                <box-icon class="fill-black size-10 hover:fill-blue-600 dark:fill-slate-100" name='linkedin'
+                    type='logo'></box-icon>
+            </a>
+        </section>
+
+        <!-- SOBRE MIM -->
+        <section class="mb-10 pt-20" id="aboutme">
+            <h1 class="font-bold text-5xl drop-shadow-md text-center lg:text-left dark:text-slate-100">Sobre mim</h1>
+
+            <div class="lg:border-l-4 pl-4 transition hover:border-orange-600">
+                <p class="indent-8 text-justify my-5 lg:indent-0 dark:text-slate-100"><span
+                        class="text-orange-600 font-bold text-2xl">S</span>ou um
+                    aspirante desenvolvedor Full Stack, atualmente aprofundando
+                    meus conhecimentos tanto no front-end quanto no back-end. Tenho experiência prática com requisições
+                    de API e estou focado em aprimorar minhas habilidades em desenvolvimento web. Com um histórico
+                    sólido
+                    em suporte técnico, tanto em hardware quanto em sistemas, estou empolgado com este novo desafio no
+                    campo da programação web.
+                </p>
+                <p class="indent-8 text-justify lg:indent-0 dark:text-slate-100"><span
+                        class="text-orange-600 font-bold text-2xl">A</span>lém da minha
+                    paixão pela tecnologia, sou um cristão que toca contra-baixo,
+                    gosto assistir séries e filmes ao lado da minha esposa e sou um grande fã no mundo dos vídeos games.
+                </p>
+            </div>
+        </section>
+
+        <!-- HARD SKILLS -->
+        <section class="mb-10 pt-20" id="skills">
+            <h2 class="font-bold text-5xl drop-shadow-md text-center lg:text-end dark:text-slate-100">Hard Skills</h2>
+            <p class="font-bold text-orange-600 text-center mb-5 tracking-wide lg:text-end">Habilidades tecnológicas</p>
+            <div
+                class="flex flex-wrap gap-2 justify-center lg:justify-end lg:border-r-4 pr-4 transition hover:border-orange-600">
+                <i class="devicon-html5-plain-wordmark colored text-6xl border border-orange-600 p-2 rounded-lg "></i>
+                <i class="devicon-css3-plain-wordmark colored text-6xl border border-orange-600 p-2 rounded-lg "></i>
+                <i class="devicon-javascript-plain colored text-6xl border border-orange-600 p-2 rounded-lg "></i>
+                <i class="devicon-tailwindcss-original colored text-6xl border border-orange-600 p-2 rounded-lg "></i>
+                <i
+                    class="devicon-bootstrap-plain-wordmark colored text-6xl border border-orange-600 p-2 rounded-lg "></i>
+                <i class="devicon-react-plain colored text-6xl border border-orange-600 p-2 rounded-lg "></i>
+                <i class="devicon-mongodb-plain-wordmark colored text-6xl border border-orange-600 p-2 rounded-lg "></i>
+                <i
+                    class="devicon-prisma-original-wordmark text-6xl border border-orange-600 p-2 rounded-lg dark:text-slate-100 "></i>
+                <i class="devicon-git-plain-wordmark colored text-6xl border border-orange-600 p-2 rounded-lg "></i>
+                <i class="devicon-nodejs-plain-wordmark colored text-6xl border border-orange-600 p-2 rounded-lg "></i>
+            </div>
+        </section>
+
+        <!-- SOFT SKILLS -->
+        <section class="mb-10">
+            <h2 class="font-bold text-5xl drop-shadow-md text-center lg:text-left dark:text-slate-100">Soft Skills</h2>
+            <p class="font-bold text-orange-600 text-center mb-5 tracking-wide lg:text-left">Habilidades pessoais</p>
+            <div class="grid grid-cols-2 gap-4 text-center lg:flex flex-wrap lg:border-l-4 pl-4 transition hover:border-orange-600"">
+                <p class=" icon-skill dark:text-slate-100">Organização</p>
+                <p class="icon-skill dark:text-slate-100">Atenção a detalhes</p>
+                <p class="icon-skill dark:text-slate-100">Trabalho colaborativo</p>
+                <p class="icon-skill dark:text-slate-100">Resolução de problemas</p>
+                <p class="icon-skill dark:text-slate-100">Capacidade analítica</p>
+                <p class="icon-skill dark:text-slate-100">Comunicação com clientes</p>
+                <p class="icon-skill dark:text-slate-100">Agilidade</p>
+                <p class="icon-skill dark:text-slate-100">Empatia</p>
+            </div>
+        </section>
+
+        <!-- MEUS PROJETOS -->
+        <section class="mb-5 pt-20" id="projects">
+            <h2 class="font-bold text-5xl drop-shadow-md text-center mb-8 dark:text-slate-100">Meus projetos</h2>
+
+            <div class="grid gap-y-8 place-items-center lg:flex flex-wrap gap-8 justify-center">
+                <article
+                    class="flex flex-col gap-2 py-4 px-2 max-w-[350px] bg-slate-100 rounded-lg transition transform flex drop-shadow-lg hover:-translate-y-2 dark:bg-slate-600">
+                    <img class="rounded-md w-[90%] mx-4" src="../assets/images/previsao-tempo.jpg"
+                        alt="Previsão do Tempo">
+
+                    <div class="flex flex-col gap-4">
+                        <div>
+                            <h3 class="text-2xl text-center font-bold my-4 dark:text-slate-100">Previsão do Tempo</h3>
+                            <p class="text-center dark:text-slate-100">
+                                Pesquise sobre sua cidade para saber como está o seu clima em tempo real.
+                            </p>
+                        </div>
+
+                        <div class="flex gap-8 justify-center">
+                            <a href="#">
+                                <box-icon class="fill-black size-10 dark:fill-slate-100" name='link-external'
+                                    type='logo'></box-icon>
+                            </a>
+                            <a href="#" target="_blank">
+                                <box-icon class="fill-black size-10 dark:fill-slate-100" name='github'
+                                    type='logo'></box-icon>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-span-2 flex justify-center gap-4 border-t-2 pt-4 w-full">
+                        <i class="devicon-html5-plain colored icon-projects-skill text-3xl"></i>
+                        <i class="devicon-css3-plain colored icon-projects-skill text-3xl"></i>
+                        <i class="devicon-javascript-plain colored icon-projects-skill text-3xl"></i>
+                    </div>
+                </article>
+
+                <article
+                    class="flex flex-col gap-2 py-4 px-2 max-w-[350px] bg-slate-100 rounded-lg transition transform flex drop-shadow-lg hover:-translate-y-2 dark:bg-slate-600">
+                    <img class="rounded-md w-[90%] mx-4" src="../assets/images/cadastro-login.jpg"
+                        alt="Previsão do Tempo">
+
+                    <div class="flex flex-col gap-4">
+                        <div>
+                            <h3 class="text-2xl text-center font-bold my-4 dark:text-slate-100">Cadastro de Usuário</h3>
+                            <p class="text-center dark:text-slate-100">
+                                Cadastro de usuário com armazenamento de nome, e-mail e idade no banco de dados.
+                            </p>
+                        </div>
+
+                        <div class="flex gap-8 justify-center">
+                            <a href="#">
+                                <box-icon class="fill-black size-10 dark:fill-slate-100" name='link-external'
+                                    type='logo'></box-icon>
+                            </a>
+                            <a href="#" target="_blank">
+                                <box-icon class="fill-black size-10 dark:fill-slate-100" name='github'
+                                    type='logo'></box-icon>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-span-2 flex justify-center gap-4 border-t-2 pt-4 w-full">
+                        <i class="devicon-react-original colored icon-projects-skill text-3xl"></i>
+                        <i class="devicon-mongodb-plain colored icon-projects-skill text-3xl"></i>
+                        <i class="devicon-html5-plain colored icon-projects-skill text-3xl"></i>
+                        <i class="devicon-css3-plain colored icon-projects-skill text-3xl"></i>
+                        <i class="devicon-javascript-plain colored icon-projects-skill text-3xl"></i>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer>
+        <div class="font-italic text-center mt-10 p-4 border-t-2 border-orange-600/50 dark:text-slate-100">
+            <p>Copyright © <span id="year"></span> Maxjannyfer Malato. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

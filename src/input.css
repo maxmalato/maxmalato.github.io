@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.borda-laranja {
+    @apply border border-orange-600
+}
+
+.icon-skill {
+    @apply border-2 border-orange-600  p-2 rounded-lg flex items-center justify-center
+}
+
+/* .icon-skill-dark {
+    @apply dark:border border-orange-500
+} */
+
+#menus {
+    transform: translateX(-100%);
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    opacity: 0;
+}
+
+#menus.show {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+
+.hidden {
+    display: none;
+}
