@@ -31,13 +31,16 @@
         <!-- MENU -->
         <div class="flex justify-between items-center px-4 bg-slate-100/50 rounded-lg dark:bg-slate-600/50" id="start">
             <div>
-                <box-icon id="menu" name='menu' class="size-12 cursor-pointer fill-slate-700 dark:fill-slate-100"></box-icon>
+                <box-icon id="menu" name='menu'
+                    class="size-12 cursor-pointer fill-slate-700 dark:fill-slate-100"></box-icon>
             </div>
-            <a href="start" class="font-bold text-2xl text-orange-600"><span class=" text-slate-700 dark:text-white">{ d</span>M }</a>
+            <a href="start" class="font-bold text-2xl text-orange-600"><span class=" text-slate-700 dark:text-white">{
+                    d</span>M }</a>
         </div>
 
         <!-- NAVEGAÇÃO -->
-        <aside id="menus" class="fixed flex flex-col bg-slate-700 text-white text-xl p-4 rounded-lg gap-4 top-20 dark:bg-slate-100">
+        <aside id="menus"
+            class="fixed flex flex-col bg-slate-700 text-white text-xl p-4 rounded-lg gap-4 top-20 dark:bg-slate-100">
             <a href="aboutme" class="hover:text-orange-600 dark:text-slate-700">Sobre mim</a>
             <a href="skills" class="hover:text-orange-600 dark:text-slate-700">Habilidades</a>
             <a href="projects" class="hover:text-orange-600 dark:text-slate-700">Projetos</a>
@@ -56,9 +59,7 @@
                 </h2>
                 <h4 class="font-bold text-xl text-orange-600 tracking-wide">Desenvolvedor Front-End</h4>
             </div>
-            <a 
-                href="./assets/documents/Curriculo - Maxjannyfer Malato.pdf"
-                target="_blank"
+            <a href="./assets/documents/Curriculo - Maxjannyfer Malato.pdf" target="_blank"
                 class="bg-orange-600 p-2 rounded-lg text-center text-lg w-48 text-white font-bold tracking-wider mt-5 drop-shadow-md hover:bg-orange-500">
                 Currículo
             </a>
@@ -94,10 +95,17 @@
 
             <div class="transition hover:border-orange-600 lg:border-l-4 lg:pl-4">
                 <p class="indent-8 text-justify my-5 lg:indent-0 dark:text-slate-100"><span
-                        class="text-orange-600 font-bold text-2xl">S</span>ou um desenvolvedor web em constante evolução, atualmente focado no front-end com React, mas também explorando o mundo do back-end. Tenho experiência prática com integração de APIs e estou continuamente buscando aprimorar minhas habilidades em todo o espectro do desenvolvimento web. Com um histórico sólido em suporte técnico, tanto de hardware quanto de sistemas, estou animado com os novos desafios que a programação web oferece.
+                        class="text-orange-600 font-bold text-2xl">S</span>ou um desenvolvedor web em constante
+                    evolução, atualmente focado no front-end com React, mas também explorando o mundo do back-end. Tenho
+                    experiência prática com integração de APIs e estou continuamente buscando aprimorar minhas
+                    habilidades em todo o espectro do desenvolvimento web. Com um histórico sólido em suporte técnico,
+                    tanto de hardware quanto de sistemas, estou animado com os novos desafios que a programação web
+                    oferece.
                 </p>
                 <p class="indent-8 text-justify lg:indent-0 dark:text-slate-100"><span
-                        class="text-orange-600 font-bold text-2xl">A</span>lém da tecnologia, sou cristão e baixista. Nos meus momentos de lazer, adoro passar tempo com minha esposa assistindo séries e filmes, e sou um apaixonado por video games.
+                        class="text-orange-600 font-bold text-2xl">A</span>lém da tecnologia, sou cristão e baixista.
+                    Nos meus momentos de lazer, adoro passar tempo com minha esposa assistindo séries e filmes, e sou um
+                    apaixonado por video games.
                 </p>
             </div>
         </section>
@@ -146,6 +154,37 @@
             <div class="grid gap-y-8 place-items-center lg:flex flex-wrap gap-8 justify-center">
                 <article
                     class="flex flex-col gap-2 py-4 px-2 max-w-[350px] bg-slate-100 rounded-lg transition transform flex drop-shadow-lg hover:-translate-y-2 dark:bg-slate-600">
+                    <img class="rounded-md w-[90%] mx-4" src="./assets/images/loggie.jpg" alt="Loggie">
+
+                    <div class="flex flex-col gap-4">
+                        <div>
+                            <h3 class="text-2xl text-center font-bold my-4 dark:text-slate-100">Loggie</h3>
+                            <p class="text-center dark:text-slate-100">
+                                Cadastro de usuários com e-mail e senha, usando JWT para autenticação segura e acesso
+                                restrito a usuários registrados.
+                            </p>
+                        </div>
+
+                        <div class="flex gap-8 justify-center">
+                            <a href="https://app-loggie.onrender.com/" target="_blank">
+                                <box-icon class="fill-black size-10 dark:fill-slate-100" name='link-external'
+                                    type='logo'></box-icon>
+                            </a>
+                            <a href="https://github.com/maxmalato/APP-Loggie" target="_blank">
+                                <box-icon class="fill-black size-10 dark:fill-slate-100" name='github'
+                                    type='logo'></box-icon>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-span-2 flex justify-center gap-4 border-t-2 pt-4 w-full">
+                        <i class="devicon-html5-plain colored icon-projects-skill text-3xl"></i>
+                        <i class="devicon-css3-plain colored icon-projects-skill text-3xl"></i>
+                        <i class="devicon-javascript-plain colored icon-projects-skill text-3xl"></i>
+                    </div>
+                </article>
+                <article
+                    class="flex flex-col gap-2 py-4 px-2 max-w-[350px] bg-slate-100 rounded-lg transition transform flex drop-shadow-lg hover:-translate-y-2 dark:bg-slate-600">
                     <img class="rounded-md w-[90%] mx-4" src="./assets/images/previsao-tempo.jpg"
                         alt="Previsão do Tempo">
 
@@ -191,7 +230,8 @@
 
                         <div class="flex gap-8 justify-center">
                             <a href="https://app-cadastro-usuario.netlify.app/" target="_blank">
-                                <box-icon class="fill-black size-10 dark:fill-slate-100" name='link-external' type='logo'></box-icon>
+                                <box-icon class="fill-black size-10 dark:fill-slate-100" name='link-external'
+                                    type='logo'></box-icon>
                             </a>
                             <a href="https://github.com/maxmalato/cadastro-usuario" target="_blank">
                                 <box-icon class="fill-black size-10 dark:fill-slate-100" name='github'
