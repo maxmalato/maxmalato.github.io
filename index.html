@@ -40,10 +40,8 @@
     <header class="sticky top-5 z-10 md:px-36" id="navLinks">
         <!-- MENU -->
         <div class="flex justify-between items-center px-4 bg-slate-100/50 rounded-lg dark:bg-slate-600/50" id="start">
-            <div>
-                <box-icon id="menu" name='menu'
-                    class="size-12 cursor-pointer fill-slate-700 dark:fill-slate-100"></box-icon>
-            </div>
+            <box-icon id="menu" name='menu'
+                class="size-12 cursor-pointer fill-slate-700 dark:fill-slate-100"></box-icon>
             <a href="start" class="font-bold text-2xl text-orange-600"><span class=" text-slate-700 dark:text-white">{
                     d</span>M }</a>
         </div>
@@ -136,8 +134,10 @@
                 <i class="devicon-git-plain-wordmark colored icon-hard rounded-lg"></i>
                 <i class="devicon-nodejs-plain-wordmark colored icon-hard rounded-lg"></i>
                 <i class="devicon-nextjs-original-wordmark icon-hard rounded-lg dark:text-slate-100"></i>
-                <i class="devicon-mysql-plain-wordmark colored icon-hard"></i>
-                <i class="devicon-microsoftsqlserver-plain-wordmark colored icon-hard"></i>
+
+                <i class="devicon-mysql-plain-wordmark icon-hard rounded-lg dark:text-slate-100"></i>
+
+                <i class="devicon-microsoftsqlserver-plain-wordmark icon-hard dark:text-slate-100"></i>
             </div>
         </section>
 
@@ -162,6 +162,37 @@
             <h2 class="font-bold text-5xl drop-shadow-md text-center mb-8 dark:text-slate-100">Meus projetos</h2>
 
             <div class="flex flex-wrap gap-6 justify-center lg:grid lg:grid-cols-3">
+                <!-- GALLERY -->
+                <article
+                    class="flex flex-col justify-between p-4 max-w-[350px] h-[550px] bg-slate-100 rounded-lg transition transform drop-shadow-lg hover:-translate-y-2 dark:bg-slate-600">
+                    <img class="rounded-md w-[90%] mx-4" src="./assets/images/gallery.png" alt="Loggie">
+
+                    <div class="flex flex-col gap-4">
+                        <div>
+                            <h3 class="text-2xl text-center font-bold my-4 dark:text-slate-100">Gallery</h3>
+                            <p class="text-center dark:text-slate-100">
+                                Buscar imagens e salvar fotos favoritas de forma prática e personalizada.
+                            </p>
+                        </div>
+
+                        <div class="flex gap-8 justify-center">
+                            <a href="https://gallery-maxmalato.netlify.app/" target="_blank">
+                                <box-icon class="fill-black size-9 dark:fill-slate-100" name='link-alt'
+                                    type='logo'></box-icon>
+                            </a>
+                            <a href="https://github.com/maxmalato/desafio-galeria-de-imagem-frontendfusion" target="_blank">
+                                <box-icon class="fill-black size-9 dark:fill-slate-100" name='github'
+                                    type='logo'></box-icon>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-span-2 flex justify-center gap-4 border-t-2 pt-4 w-full">
+                        <i class="devicon-javascript-plain colored icon-projects-skill text-3xl"></i>
+                        <i class="devicon-react-original colored icon-projects-skill text-3xl"></i>
+                        <i class="devicon-tailwindcss-original colored icon-projects-skill text-3xl"></i>
+                    </div>
+                </article>
                 <!-- LOGGIE -->
                 <article
                     class="flex flex-col justify-between p-4 max-w-[350px] h-[550px] bg-slate-100 rounded-lg transition transform drop-shadow-lg hover:-translate-y-2 dark:bg-slate-600">
@@ -269,7 +300,7 @@
 
     <!-- RODAPÉ -->
     <footer>
-        <div class="font-italic text-center mt-10 p-4 border-t-2 border-orange-600/50 dark:text-slate-100">
+        <div class="font-italic text-center text-sm mt-10 p-4 border-t-2 border-orange-600/50 dark:text-slate-100">
             <p>Copyright © <span id="year"></span> Maxjannyfer Malato. Todos os direitos reservados.</p>
         </div>
     </footer>
